@@ -1,0 +1,38 @@
+[
+  {
+	"enabled": true,
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "butchering:recipes/grid/blackpudding.json",
+    "side": "server",
+	"dependsOn": [{"modid": "expandedfoods"}]
+  },
+  {
+	"enabled": true,
+    "op": "add",
+    "path": "/0/enabled",
+    "value": false,
+    "file": "butchering:recipes/grid/bloodsausage.json",
+    "side": "server",
+	"dependsOn": [{"modid": "expandedfoods"}]
+  },
+  {
+	"enabled": true,
+    "op": "add",
+    "path": "/1/enabled",
+    "value": false,
+    "file": "butchering:recipes/grid/bloodsausage.json",
+    "side": "server",
+	"dependsOn": [{"modid": "expandedfoods"}]
+  },
+  {
+	"enabled": true,
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "butchering:itemtypes/food/sausage.json",
+    "side": "server",
+	"dependsOn": [{"modid": "expandedfoods"}]
+  }
+]

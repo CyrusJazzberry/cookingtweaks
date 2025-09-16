@@ -1,0 +1,90 @@
+[
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/0/ingredients/3/inputs/0",
+		"value": {
+			type: "item", code: "saltandsands:bivalvemeat-*-raw", "allowedVariants": [ "scallop", "clam", "freshwatermussel", "urchin" ], quantity: 1
+		},
+		"file": "expandedfoods:recipes/kneading/sushi.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/0/ingredients/3/inputs/0",
+		"value": {
+			type: "item", code: "saltandsands:bivalvemeat-*-cured", "allowedVariants": [ "scallop", "clam", "freshwatermussel", "urchin" ], quantity: 1
+		},
+		"file": "expandedfoods:recipes/kneading/sushi.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/1/ingredients/2/inputs/0",
+		"value": {
+			type: "item", code: "saltandsands:bivalvemeat-*-raw", "allowedVariants": [ "scallop", "clam", "freshwatermussel", "urchin" ], quantity: 1
+		},
+		"file": "expandedfoods:recipes/kneading/sushi.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/1/ingredients/2/inputs/0",
+		"value": {
+			type: "item", code: "saltandsands:bivalvemeat-*-cured", "allowedVariants": [ "scallop", "clam", "freshwatermussel", "urchin" ], quantity: 1
+		},
+		"file": "expandedfoods:recipes/kneading/sushi.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/2/ingredients/4/inputs/0",
+		"value": {
+			type: "item", code: "saltandsands:bivalvemeat-*-raw", "allowedVariants": [ "scallop", "clam", "freshwatermussel", "urchin" ], quantity: 1
+		},
+		"file": "expandedfoods:recipes/kneading/sushi.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/2/ingredients/4/inputs/0",
+		"value": {
+			type: "item", code: "saltandsands:bivalvemeat-*-cured", "allowedVariants": [ "scallop", "clam", "freshwatermussel", "urchin" ], quantity: 1
+		},
+		"file": "expandedfoods:recipes/kneading/sushi.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/3/ingredients/3/inputs/0",
+		"value": {
+			type: "item", code: "saltandsands:bivalvemeat-*-raw", "allowedVariants": [ "scallop", "clam", "freshwatermussel", "urchin" ], quantity: 1
+		},
+		"file": "expandedfoods:recipes/kneading/sushi.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	},
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/3/ingredients/3/inputs/0",
+		"value": {
+			type: "item", code: "saltandsands:bivalvemeat-*-cured", "allowedVariants": [ "scallop", "clam", "freshwatermussel", "urchin" ], quantity: 1
+		},
+		"file": "expandedfoods:recipes/kneading/sushi.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "expandedfoods" }]
+	}
+]

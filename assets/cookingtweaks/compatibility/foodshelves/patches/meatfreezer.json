@@ -1,0 +1,41 @@
+[
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/CollectibleCodes",
+    "value": [
+		"saltandsands:bivalvemeat-scallop-raw",
+		"saltandsands:bivalvemeat-clam-raw",
+		"saltandsands:bivalvemeat-freshwatermussel-raw",
+		"saltandsands:bivalvemeat-urchin-raw"
+	],
+    "side": "server",
+    "file": "foodshelves:config/restrictions/glassware/meatfreezer.json",
+	"dependsOn": [{"modid": "foodshelves"}, {"modid": "saltandsands"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/CollectibleCodes",
+    "value": [
+		"expandedfoods:meatnugget-redmeat-raw",
+		"expandedfoods:meatnugget-bushmeat-raw",
+		"saltandsands:fisnugget-raw"
+	],
+    "side": "server",
+    "file": "foodshelves:config/restrictions/glassware/meatfreezer.json",
+	"dependsOn": [{"modid": "foodshelves"}, {"modid": "expandedfoods"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/CollectibleCodes",
+    "value": [
+		"expandedfoods:crabnugget-raw",
+		"expandedfoods:snakenugget-raw"
+	],
+    "side": "server",
+    "file": "foodshelves:config/restrictions/glassware/meatfreezer.json",
+	"dependsOn": [{"modid": "foodshelves"}, {"modid": "expandedfoods"}, {"modid": "primitivesurvival"}]
+  }
+]

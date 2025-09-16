@@ -1,0 +1,11 @@
+[
+	{
+		code: "saltywellwater",
+		sealHours: 240,
+		ingredients: [
+			{ type: "item", code: "hydrateordiedrate:wellwaterportion-salt",  litres: 10 }
+		],
+		output: { type: "item", code: "expandedfoods:saltcrystal-damp", stackSize: 1 },
+		"dependsOn": [{"modid": "hydrateordiedrate"}]
+	}
+]

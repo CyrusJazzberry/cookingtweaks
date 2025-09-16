@@ -1,0 +1,23 @@
+[
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+		"*-salt": {
+			"meltingPoint": 100,
+			"meltingDuration": 5,
+			"smeltedRatio": 1000,
+			"smeltingType": "cook",
+			"smeltedStack": {
+				"type": "item",
+				"code": "expandedfoods:saltcrystal-dry"
+			},
+			"requiresContainer": true
+		}
+    },
+    "side": "server",
+    "file": "hydrateordiedrate:itemtypes/liquid/wellwaterportion.json",
+	"dependsOn": [{"modid": "hydrateordiedrate"}]
+  }
+]

@@ -1,0 +1,9 @@
+[
+	{
+		"file": "game:recipes/barrel/saltandsands_fishslop.json",
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"dependsOn": [ { "modid": "expandedfoods" } ]
+	}
+]

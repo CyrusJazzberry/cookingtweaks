@@ -1,0 +1,10 @@
+	{
+		"enabled": false,
+		code: "fermentedfish",
+		sealHours: 336,
+		ingredients: [
+			{ type: "item", code: "game:salt", "quantity": 8 },
+			{ type: "item", code: "saltandsands:bivalvemeat-*-raw", "quantity": 64, name:"fish", allowedVariants: ["scallop", "clam", "freshwatermussel", "urchin"] }
+		],
+		output: { type: "item", code: "expandedfoods:fermentedfish-slop", "quantity": 1 }
+	}

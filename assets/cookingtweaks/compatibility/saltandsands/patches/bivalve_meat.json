@@ -1,0 +1,10 @@
+[
+	{
+		"file": "saltandsands:itemtypes/resource/bivalvemeat.json",
+		"op": "replace",
+		"path": "/creativeinventory",
+		"value": {
+			general: ["*"], items: ["*"]
+		}
+	}
+]
