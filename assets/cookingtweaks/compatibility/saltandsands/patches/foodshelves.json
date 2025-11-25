@@ -1,0 +1,26 @@
+[
+  {
+	"enabled": true,
+	"op": "remove",
+	"path": "/nutritionPropsByType/*-freshwatermussel-raw",
+	"file": "saltandsands:itemtypes/resource/bivalvemeat.json",
+	"side": "server",
+	"dependsOn": [{ "modid": "foodshelves" }]
+  },
+  {
+	"enabled": true,
+	"op": "remove",
+	"path": "/nutritionPropsByType/*-urchin-raw",
+	"file": "saltandsands:itemtypes/resource/bivalvemeat.json",
+	"side": "server",
+	"dependsOn": [{ "modid": "foodshelves" }]
+  },
+  {
+	"enabled": true,
+	"op": "remove",
+	"path": "/nutritionPropsByType/*-raw",
+	"file": "saltandsands:itemtypes/resource/bivalvemeat.json",
+	"side": "server",
+	"dependsOn": [{ "modid": "foodshelves" }]
+  }
+]
