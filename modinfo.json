@@ -7,9 +7,9 @@
   "requiredOnServer": true,
   "description" : "Miscellaneous tweaks to cooking and cooking mods",
   "authors": ["CyrusJazzberry"],
-  "version": "1.2.1",
+  "version": "1.2.2",
   "dependencies": { 
-	"game": "1.20.12",
+	"game": "1.21.5",
 	"survival": ""
   }
 }

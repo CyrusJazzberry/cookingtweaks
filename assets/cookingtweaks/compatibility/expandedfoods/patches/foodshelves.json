@@ -1,0 +1,10 @@
+[
+	{
+		"enabled": true,
+		"op": "remove",
+		"path": "/nutritionPropsByType/@*-(smashed|raw)",
+		"file": "expandedfoods:itemtypes/food/fishnugget.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "foodshelves" }]
+	}
+]
