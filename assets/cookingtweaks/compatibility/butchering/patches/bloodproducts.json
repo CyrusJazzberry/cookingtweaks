@@ -29,9 +29,9 @@
   {
 	"enabled": true,
     "op": "add",
-    "path": "/enabled",
+    "path": "/2/enabled",
     "value": false,
-    "file": "butchering:itemtypes/food/sausage.json",
+    "file": "butchering:recipes/grid/bloodsausage.json",
     "side": "server",
 	"dependsOn": [{"modid": "expandedfoods"}]
   }
