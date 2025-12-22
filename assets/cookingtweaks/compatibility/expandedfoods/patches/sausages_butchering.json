@@ -1,17 +1,23 @@
 [
 	{
 		"enabled": true,
-		"op": "addmerge",
-		"path": "/attributes/expandedNutritionPropsByType/@*-(raw|curing)",
+		"op": "replace",
+		"path": "/attributes/expandedNutritionPropsByType/@*-(raw|curing)/butchering:bloodportion",
 		"value": {
-			"butchering:bloodportion": {
-			"saturation": 2.4,
+			"saturation": 3,
 			"foodcategory": "Protein"
-			},
-			"butchering:offal-clean": {
-			"saturation": 100,
+		},
+		"file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "butchering" }]
+	},
+	{
+		"enabled": true,
+		"op": "replace",
+		"path": "/attributes/expandedNutritionPropsByType/@*-(raw|curing)/butchering:offal-clean",
+		"value": {
+			"saturation": 125,
 			"foodcategory": "Protein"
-			}
 		},
 		"file": "expandedfoods:itemtypes/food/mixing/sausage.json",
 		"side": "server",
@@ -23,7 +29,7 @@
 		"path": "/attributes/expandedNutritionProps",
 		"value": {
 			"butchering:bloodportion": {
-			"saturation": 2.4,
+			"saturation": 3,
 			"foodcategory": "Protein"
 			}
 		},
@@ -37,7 +43,7 @@
 		"path": "/attributes/expandedNutritionProps",
 		"value": {
 			"butchering:bloodportion": {
-			"saturation": 2.4,
+			"saturation": 3,
 			"foodcategory": "Protein"
 			}
 		},
@@ -51,7 +57,7 @@
 		"path": "/attributes/expandedNutritionProps",
 		"value": {
 			"butchering:bloodportion": {
-			"saturation": 2.4,
+			"saturation": 3,
 			"foodcategory": "Protein"
 			}
 		},
