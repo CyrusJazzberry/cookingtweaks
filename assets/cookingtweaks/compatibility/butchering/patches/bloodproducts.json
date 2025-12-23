@@ -69,7 +69,7 @@
     "op": "add",
     "path": "/0/enabled",
     "value": false,
-    "file": "butchering:recipes/kneading/bloodmeatsausages.json",
+    "file": "butchering:recipes/kneading/bloodmeatnuggetsausages.json",
     "side": "server",
 	"dependsOn": [{"modid": "expandedfoods"}]
   },
@@ -78,7 +78,7 @@
     "op": "add",
     "path": "/1/enabled",
     "value": false,
-    "file": "butchering:recipes/kneading/bloodmeatsausages.json",
+    "file": "butchering:recipes/kneading/bloodmeatnuggetsausages.json",
     "side": "server",
 	"dependsOn": [{"modid": "expandedfoods"}]
   },
@@ -87,7 +87,7 @@
     "op": "add",
     "path": "/2/enabled",
     "value": false,
-    "file": "butchering:recipes/kneading/bloodmeatsausages.json",
+    "file": "butchering:recipes/kneading/bloodmeatnuggetsausages.json",
     "side": "server",
 	"dependsOn": [{"modid": "expandedfoods"}]
   },

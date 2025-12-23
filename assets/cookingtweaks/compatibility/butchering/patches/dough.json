@@ -1,0 +1,13 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/expandedNutritionProps/butchering:bloodportion",
+    "value": {
+      "saturation": 20,
+      "foodcategory": "Protein"
+    },
+    "side": "server",
+    "file": "game:itemtypes/food/dough.json",
+    "dependsOn": [ { "modid": "expandedfoods" } ]
+  }
+]
