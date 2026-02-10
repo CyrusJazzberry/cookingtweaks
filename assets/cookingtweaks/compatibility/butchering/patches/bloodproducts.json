@@ -1,4 +1,5 @@
 [
+  //grid
   {
 	"enabled": true,
     "op": "add",
@@ -6,7 +7,7 @@
     "value": false,
     "file": "butchering:recipes/grid/blackpudding.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   },
   {
 	"enabled": true,
@@ -15,7 +16,7 @@
     "value": false,
     "file": "butchering:recipes/grid/bloodsausage.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   },
   {
 	"enabled": true,
@@ -24,7 +25,7 @@
     "value": false,
     "file": "butchering:recipes/grid/bloodsausage.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   },
   {
 	"enabled": true,
@@ -33,7 +34,7 @@
     "value": false,
     "file": "butchering:recipes/grid/bloodsausage.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   },
   
   {
@@ -43,7 +44,7 @@
     "value": false,
     "file": "butchering:recipes/grid/blooddough.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   },
   {
 	"enabled": true,
@@ -52,7 +53,7 @@
     "value": false,
     "file": "butchering:recipes/grid/blooddough.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   },
   {
 	"enabled": true,
@@ -61,9 +62,9 @@
     "value": false,
     "file": "butchering:recipes/grid/blooddough.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   },
-
+  //kneading
   {
 	"enabled": true,
     "op": "add",
@@ -71,7 +72,7 @@
     "value": false,
     "file": "butchering:recipes/kneading/bloodmeatnuggetsausages.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   },
   {
 	"enabled": true,
@@ -80,7 +81,7 @@
     "value": false,
     "file": "butchering:recipes/kneading/bloodmeatnuggetsausages.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   },
   {
 	"enabled": true,
@@ -89,7 +90,7 @@
     "value": false,
     "file": "butchering:recipes/kneading/bloodmeatnuggetsausages.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   },
 
   {
@@ -99,7 +100,7 @@
     "value": false,
     "file": "butchering:recipes/kneading/meatnuggetsausages.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   },
   {
 	"enabled": true,
@@ -108,7 +109,7 @@
     "value": false,
     "file": "butchering:recipes/kneading/meatnuggetsausages.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+  	"dependsOn": [{"modid": "expandedfoods"}]
   },
   {
 	"enabled": true,
@@ -117,7 +118,7 @@
     "value": false,
     "file": "butchering:recipes/kneading/meatnuggetsausages.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   },
   {
 	"enabled": true,
@@ -126,6 +127,6 @@
     "value": false,
     "file": "butchering:recipes/kneading/meatnuggetsausages.json",
     "side": "server",
-	"dependsOn": [{"modid": "expandedfoods"}]
+	  "dependsOn": [{"modid": "expandedfoods"}]
   }
 ]
