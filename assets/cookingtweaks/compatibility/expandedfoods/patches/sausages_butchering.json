@@ -1,17 +1,23 @@
 [
 	{
 		"enabled": true,
-		"op": "addmerge",
-		"path": "/attributes/expandedNutritionPropsByType/@*-(raw|curing)",
+		"op": "replace",
+		"path": "/attributes/expandedNutritionPropsByType/@*-(raw|curing)/butchering:bloodportion",
 		"value": {
-			"butchering:bloodportion": {
-			"saturation": 2.4,
+			"saturation": 5,
 			"foodcategory": "Protein"
-			},
-			"butchering:offal-clean": {
-			"saturation": 100,
+		},
+		"file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "butchering" }]
+	},
+	{
+		"enabled": true,
+		"op": "replace",
+		"path": "/attributes/expandedNutritionPropsByType/@*-(raw|curing)/butchering:offal-clean",
+		"value": {
+			"saturation": 120,
 			"foodcategory": "Protein"
-			}
 		},
 		"file": "expandedfoods:itemtypes/food/mixing/sausage.json",
 		"side": "server",
@@ -23,7 +29,7 @@
 		"path": "/attributes/expandedNutritionProps",
 		"value": {
 			"butchering:bloodportion": {
-			"saturation": 2.4,
+			"saturation": 5,
 			"foodcategory": "Protein"
 			}
 		},
@@ -37,7 +43,7 @@
 		"path": "/attributes/expandedNutritionProps",
 		"value": {
 			"butchering:bloodportion": {
-			"saturation": 2.4,
+			"saturation": 5,
 			"foodcategory": "Protein"
 			}
 		},
@@ -51,7 +57,7 @@
 		"path": "/attributes/expandedNutritionProps",
 		"value": {
 			"butchering:bloodportion": {
-			"saturation": 2.4,
+			"saturation": 5,
 			"foodcategory": "Protein"
 			}
 		},
@@ -64,7 +70,7 @@
 		"op": "addmerge",
 		"path": "/0/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/sausage.json",
 		"side": "server",
@@ -75,7 +81,7 @@
 		"op": "addmerge",
 		"path": "/0/ingredients/-",
 		"value": {
-			inputs: [{ type: "item", code: "butchering:offal-clean", quantity: 1 }]
+			"inputs": [{ "type": "item", "code": "butchering:offal-clean", "quantity": 1 }]
 		},
 		"file": "expandedfoods:recipes/kneading/sausage.json",
 		"side": "server",
@@ -86,7 +92,7 @@
 		"op": "addmerge",
 		"path": "/1/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/sausage.json",
 		"side": "server",
@@ -97,7 +103,7 @@
 		"op": "addmerge",
 		"path": "/1/ingredients/-",
 		"value": {
-			inputs: [{ type: "item", code: "butchering:offal-clean", quantity: 1 }]
+			"inputs": [{ "type": "item", "code": "butchering:offal-clean", "quantity": 1 }]
 		},
 		"file": "expandedfoods:recipes/kneading/sausage.json",
 		"side": "server",
@@ -109,7 +115,7 @@
 		"op": "addmerge",
 		"path": "/2/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/sausage.json",
 		"side": "server",
@@ -120,7 +126,7 @@
 		"op": "addmerge",
 		"path": "/2/ingredients/-",
 		"value": {
-			inputs: [{ type: "item", code: "butchering:offal-clean", quantity: 1 }]
+			"inputs": [{ "type": "item", "code": "butchering:offal-clean", "quantity": 1 }]
 		},
 		"file": "expandedfoods:recipes/kneading/sausage.json",
 		"side": "server",
@@ -131,7 +137,7 @@
 		"op": "addmerge",
 		"path": "/3/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/sausage.json",
 		"side": "server",
@@ -142,7 +148,7 @@
 		"op": "addmerge",
 		"path": "/3/ingredients/-",
 		"value": {
-			inputs: [{ type: "item", code: "butchering:offal-clean", quantity: 1 }]
+			"inputs": [{ "type": "item", "code": "butchering:offal-clean", "quantity": 1 }]
 		},
 		"file": "expandedfoods:recipes/kneading/sausage.json",
 		"side": "server",
@@ -153,7 +159,7 @@
 		"op": "addmerge",
 		"path": "/0/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/sausagefish.json",
 		"side": "server",
@@ -164,7 +170,7 @@
 		"op": "addmerge",
 		"path": "/1/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/sausagefish.json",
 		"side": "server",
@@ -175,7 +181,7 @@
 		"op": "addmerge",
 		"path": "/2/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/sausagefish.json",
 		"side": "server",
@@ -186,7 +192,7 @@
 		"op": "addmerge",
 		"path": "/0/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/primitivesurvival/sausagecrab.json",
 		"side": "server",
@@ -197,7 +203,7 @@
 		"op": "addmerge",
 		"path": "/1/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/primitivesurvival/sausagecrab.json",
 		"side": "server",
@@ -208,7 +214,7 @@
 		"op": "addmerge",
 		"path": "/2/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/primitivesurvival/sausagecrab.json",
 		"side": "server",
@@ -219,7 +225,7 @@
 		"op": "addmerge",
 		"path": "/3/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/primitivesurvival/sausagecrab.json",
 		"side": "server",
@@ -230,7 +236,7 @@
 		"op": "addmerge",
 		"path": "/0/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/primitivesurvival/sausagesnake.json",
 		"side": "server",
@@ -241,7 +247,7 @@
 		"op": "addmerge",
 		"path": "/1/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/primitivesurvival/sausagesnake.json",
 		"side": "server",
@@ -252,7 +258,7 @@
 		"op": "addmerge",
 		"path": "/2/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/primitivesurvival/sausagesnake.json",
 		"side": "server",
@@ -263,7 +269,7 @@
 		"op": "addmerge",
 		"path": "/3/ingredients/0/inputs/0",
 		"value": {
-			type: "item", code: "butchering:bloodportion",  quantity: 50
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
 		"file": "expandedfoods:recipes/kneading/primitivesurvival/sausagesnake.json",
 		"side": "server",

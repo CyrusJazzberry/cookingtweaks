@@ -4,7 +4,7 @@
 		"op": "replace",
 		"path": "/creativeinventory",
 		"value": {
-			general: ["*"], items: ["*"]
+			"general": ["*"], "items": ["*"]
 		}
 	}
 ]

@@ -1,0 +1,63 @@
+{
+	"version": 0,
+	"patches": {
+		"boolean": {
+			"cookingtweaks:compatibility/butchering/patches/bloodproducts.json": {
+				"/0/enabled": "blackpuddingCrafting",
+				"/1/enabled": "bloodsausageCrafting",
+				"/2/enabled": "bloodsausageCrafting",
+				"/3/enabled": "bloodsausageCrafting",
+				"/4/enabled": "blooddoughCrafting",
+				"/5/enabled": "blooddoughCrafting",
+				"/6/enabled": "blooddoughCrafting",
+				"/7/enabled": "bloodsausageCrafting",
+				"/8/enabled": "bloodsausageCrafting",
+				"/9/enabled": "blackpuddingCrafting",
+				"/10/enabled": "butcheringEFSausageCrafting",
+				"/11/enabled": "butcheringEFSausageCrafting",
+				"/12/enabled": "butcheringEFSausageCrafting",
+				"/13/enabled": "butcheringEFSausageCrafting"
+			}
+		}
+	},
+	"settings": {
+		"boolean": {
+			"blooddoughCrafting": {
+				"name": "blooddoughCrafting",
+				"ingui": "cookingtweaks:setting-blooddoughCrafting",
+				"weight": 0.2,
+				"comment": "cookingtweaks:setting-blooddoughCrafting-desc",
+				"default": true
+			},
+			"bloodsausageCrafting": {
+				"name": "bloodsausageCrafting",
+				"ingui": "cookingtweaks:setting-bloodsausageCrafting",
+				"weight": 0.3,
+				"comment": "cookingtweaks:setting-bloodsausageCrafting-desc",
+				"default": true
+			},
+			"blackpuddingCrafting": {
+				"name": "blackpuddingCrafting",
+				"ingui": "cookingtweaks:setting-blackpuddingCrafting",
+				"weight": 0.4,
+				"comment": "cookingtweaks:setting-blackpuddingCrafting-desc",
+				"default": true
+			},
+			"butcheringEFSausageCrafting": {
+				"name": "butcheringEFSausageCrafting",
+				"ingui": "cookingtweaks:setting-butcheringEFSausageCrafting",
+				"weight": 0.5,
+				"comment": "cookingtweaks:setting-butcheringEFSausageCrafting-desc",
+				"default": true
+			}
+		}
+	},
+  "formatting": [
+    {
+      "type": "separator",
+	  "title": "Butchering",
+	  "ingui": "cookingtweaks:separator-butchering",
+      "weight": 0.1
+    }
+  ]
+}
