@@ -9,7 +9,7 @@
   "authors": ["CyrusJazzberry"],
   "version": "1.2.4",
   "dependencies": { 
-	"game": "1.21.5",
+	"game": "1.21.6",
 	"survival": ""
   }
 }
