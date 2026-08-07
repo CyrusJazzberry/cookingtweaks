@@ -6,7 +6,7 @@
 	"value": [
 		"saltandsands:bivalvemeat-*-raw"
 	],
-	"file": "foodshelves:config/restrictions/glassware/meatfreezer.json",
+	"file": "foodshelves:config/restrictions/coolers/meatfreezer.json",
 	"side": "server",
 	"dependsOn": [{ "modid": "saltandsands" }]
   },
@@ -18,7 +18,7 @@
 		"expandedfoods:meatnugget-*-raw",
 		"expandedfoods:fishnugget-raw"
 	],
-	"file": "foodshelves:config/restrictions/glassware/meatfreezer.json",
+	"file": "foodshelves:config/restrictions/coolers/meatfreezer.json",
 	"side": "server",
 	"dependsOn": [{ "modid": "expandedfoods" }]
   }
