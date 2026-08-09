@@ -154,6 +154,44 @@
 		"side": "server",
 		"dependsOn": [{ "modid": "butchering" }]
 	},
+	// we have to disable EF's fish sausage recipes
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/0/enabled",
+		"value": false,
+		"file": "expandedfoods:recipes/kneading/sausagefish.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "butchering" }]
+	},
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/1/enabled",
+		"value": false,
+		"file": "expandedfoods:recipes/kneading/sausagefish.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "butchering" }]
+	},
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/2/enabled",
+		"value": false,
+		"file": "expandedfoods:recipes/kneading/sausagefish.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "butchering" }]
+	},
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/3/enabled",
+		"value": false,
+		"file": "expandedfoods:recipes/kneading/sausagefish.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "butchering" }]
+	},
+	// we have to directly edit butchering's recipes to get these to work
 	{
 		"enabled": true,
 		"op": "addmerge",
@@ -161,7 +199,7 @@
 		"value": {
 			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
-		"file": "expandedfoods:recipes/kneading/sausagefish.json",
+		"file": "butchering:recipes/kneading/fishnuggetsausages.json",
 		"side": "server",
 		"dependsOn": [{ "modid": "butchering" }]
 	},
@@ -172,7 +210,7 @@
 		"value": {
 			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
-		"file": "expandedfoods:recipes/kneading/sausagefish.json",
+		"file": "butchering:recipes/kneading/fishnuggetsausages.json",
 		"side": "server",
 		"dependsOn": [{ "modid": "butchering" }]
 	},
@@ -183,10 +221,22 @@
 		"value": {
 			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
 		},
-		"file": "expandedfoods:recipes/kneading/sausagefish.json",
+		"file": "butchering:recipes/kneading/fishnuggetsausages.json",
 		"side": "server",
 		"dependsOn": [{ "modid": "butchering" }]
 	},
+	{
+		"enabled": true,
+		"op": "addmerge",
+		"path": "/3/ingredients/0/inputs/0",
+		"value": {
+			"type": "item", "code": "butchering:bloodportion",  "quantity": 40
+		},
+		"file": "butchering:recipes/kneading/fishnuggetsausages.json",
+		"side": "server",
+		"dependsOn": [{ "modid": "butchering" }]
+	},
+	// legacy primitive survival patches
 	{
 		"enabled": true,
 		"op": "addmerge",
