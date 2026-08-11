@@ -1,0 +1,204 @@
+[
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-reef-*/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.1 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-saltwater-coelacanth-*-adult/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.2 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-saltwater-mahi-mahi-*-adult/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.2 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-saltwater-grouper-*-adult/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.2 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/@fishraw-saltwater-(amberjack|barracuda|sturgeon)-.*-adult/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.2 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/@fishraw-saltwater-(bream|hake|haddock|gurnard|pollock|salmon|snapper|tuna|wolf|wreckfish)-.*-adult/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.2 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/@fishraw-saltwater-(herring|mackerel|perch)-.*-adult/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.2 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-saltwater-coelacanth-*-juvenile/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.1 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-saltwater-mahi-mahi-*-juvenile/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.1 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-saltwater-grouper-*-juvenile/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.1 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/@fishraw-saltwater-(amberjack|barracuda|sturgeon)-.*-juvenile/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.1 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/@fishraw-saltwater-(salmon|snapper|tuna|wolf|wreckfish)-.*-juvenile/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.1 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-freshwater-arapaima-*-adult/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.2 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-freshwater-sheatfish-*-adult/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.2 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-freshwater-pike-*-adult/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.2 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/@fishraw-freshwater-(bass|carp|catfish|pickerel|salmon|walleye)-.*-adult/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.2 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/@fishraw-freshwater-(crappie|perch|trout|tilapia|piranha)-.*-adult/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.2 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-freshwater-arapaima-*-juvenile/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.1 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-freshwater-sheatfish-*-juvenile/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.1 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/fishraw-freshwater-pike-*-juvenile/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.1 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/@fishraw-freshwater-(bass|carp|catfish|pickerel|salmon|walleye)-.*-juvenile/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.1 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  },
+
+  {
+	"enabled": true,
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/processedStacksByType/*/-",
+    "value": { "type": "item", "code": "butchering:offal-bloody", "quantity": { "avg": 0.1 } },
+    "side": "server",
+    "file": "game:itemtypes/food/fishraw.json",
+	"dependsOn": [{"modid": "butchering"}]
+  }
+]
